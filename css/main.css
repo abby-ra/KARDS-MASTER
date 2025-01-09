@@ -963,9 +963,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background: #af3939;
 	position: relative;
 	height: 100%;
+}
+.skill-bars li .progress .cloud{
+	background: #1c14b1;
+	
 }
 .skill-bars li .progress span {
 	position: absolute;
@@ -976,7 +980,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: white;
 	font-size: 1.1rem;
 	line-height: 1;
-	background: #313131;
+	background: #686565;
 	padding: .6rem .6rem;
 	border-radius: 3px;
 }
@@ -1010,7 +1014,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent85  { width: 85%; }
 .skill-bars li .percent90  { width: 90%; }
 .skill-bars li .percent95  { width: 95%; }
-.skill-bars li .percent100 { width: 100%; }
+.skill-bars li .percent100 { width: 100%;}
 
 
 /** 
